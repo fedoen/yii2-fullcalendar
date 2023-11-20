@@ -1,0 +1,29 @@
+{
+    "name": "fedoen/yii2-fullcalendar",
+    "description": "Fullcalendar port to yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","fullcalendar","admin","theme","backend","asset","css","less"],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Emil Fedorciuc",
+            "email": "fedoen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4||^8.0",
+        "yiisoft/yii2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fedoen\\fullcalendar\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev",
+            "dev-develop": "1.0.x-dev"
+        }
+    }
+}
