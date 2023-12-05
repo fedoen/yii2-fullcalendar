@@ -6,7 +6,7 @@ Fullcalendar port to yii2
 Yii2-fullcalendar can be installed using composer.
 Add the following lines to composer.json
 
-```
+```json
     "repositories": [
         ...
         {
